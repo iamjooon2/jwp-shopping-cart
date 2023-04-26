@@ -51,7 +51,6 @@ class AdminControllerTest {
             .statusCode(HttpStatus.OK.value());
     }
 
-
     @ParameterizedTest
     @NullAndEmptySource
     void 빈_상품을_등록할_수_없다(final String name) {
